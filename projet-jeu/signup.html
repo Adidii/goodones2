@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>sign-up</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Burger Menu -->
+        <div id="menuBurger" class="menu-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav id="navMenu" class="nav-menu hidden">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="testlogo.html">Jeux</a></li>
+                <li><a href="login.html">Log-in</a></li>
+                </ul>
+        </nav>
+    <div class="containerr">
+        <div class="form_area">
+            <p class="title">SIGN UP</p>
+            <!-- Formulaire de sign-up avec un ID -->
+            <form id="signupForm" action="testlogo.html">
+                <div class="form_group">
+                    <label class="sub_title" for="name">Name</label>
+                    <input placeholder="Enter your full name" class="form_style" type="text">
+                    <span id="nameError"></span>
+
+                </div>
+                <div class="form_group">
+                    <label class="sub_title" for="email">Email</label>
+                    <input placeholder="Enter your email" id="email" class="form_style" type="email">
+                    <span id="emailError"></span>
+
+                </div>
+                <div class="form_group">
+                    <label class="sub_title" for="password">Password</label>
+                    <input placeholder="Enter your password" id="password" class="form_style" type="password">
+                    <span id="passwordError"></span>
+
+                </div>
+                <div>
+                    <!-- Bouton de sign-up avec un ID -->
+                    <button id="signupButton" class="btn">SIGN UP</button>
+                </div>
+            </form>
+            <p>Have an Account? <a class="link" href="login.html">Login Here!</a></p>
+        </div>
+    </div>   
+</body>
+</html>
